@@ -17,14 +17,14 @@ export const places: PhotoItem[] = [
     location: "Millennium Park, Chicago",
     locationLink: null
   }, 
-  {
+  /*{
     id: 3,
     title: "ZooLight",
     image: "/assets/images/places/zooLight.avif",
     note: "Lights Lights and more lights that were absolutly breathtaking",
     location: "Lincolin Zoo, Chicago",
     locationLink: null
-  },
+  },*/
   {
     id: 4,
     title: "Christkindl",

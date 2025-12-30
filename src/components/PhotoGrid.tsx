@@ -32,7 +32,7 @@ export default function PhotoGrid({ items, onSelect }: PhotoGridProps) {
               <img
                 src = {item.image}
                 alt = {item.title}
-                className = "w-full h-64 object-cover transition-transform duration-500 group-hover:scale-150"
+                className = "w-full h-auto object-contain transition-transform duration-500 group-hover:scale-150"
               />
               <div className = "absolute inset-0 bg-blue-900/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                 <div className = "p-4">

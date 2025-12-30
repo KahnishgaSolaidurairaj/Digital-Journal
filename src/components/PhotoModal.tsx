@@ -22,7 +22,7 @@ export default function PhotoModal({ item, onClose }: Props) {
         className = "bg-white rounded-3xl max-w-3xl w-full overflow-hidden"
         onClick = {(e) => e.stopPropagation()}
       >
-        <img src = {item.image} className = "w-full h-80 object-cover" />
+        <img src = {item.image} className = "w-full h-auto max-h-[60vh] mx-auto object-cover" />
 
         <div className = "p-6 space-y-3">
           <h2 className = "text-2xl font-medium"> {item.title} </h2>

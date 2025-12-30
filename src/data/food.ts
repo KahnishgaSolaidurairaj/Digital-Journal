@@ -1,6 +1,6 @@
 import type { PhotoItem } from "../components/PhotoGrid";
 
-export const food = [
+export const food: PhotoItem[] = [
   {
     id: 1,
     title: "Matcha",

@@ -1,6 +1,6 @@
 import type { PhotoItem } from "../components/PhotoGrid";
 
-export const activities = [
+export const activities: PhotoItem[] = [
   {
     id: 1,
     title: "Blah",

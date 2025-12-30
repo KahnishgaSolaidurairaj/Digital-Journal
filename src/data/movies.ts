@@ -1,6 +1,6 @@
 import type { PhotoItem } from "../components/PhotoGrid";
 
-export const movies = [
+export const movies: PhotoItem[] = [
   {
     id: 1,
     title: "Zootopia 2",
