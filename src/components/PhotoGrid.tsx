@@ -25,15 +25,22 @@ export default function PhotoGrid({ items, onSelect }: PhotoGridProps) {
             animate = {{ opacity: 1, y: 0 }}
             transition = {{ delay: index * 0.08 }}
             whileHover = {{ scale: 1.03 }}
-            className = "cursor-pointer"
+            className = "cursor-pointer group"
             onClick = {() => onSelect(item)}
           >
-            <div className = "overflow-hidden rounded-2xl">
+            <div className = "relative overflow-hidden rounded-2xl">
               <img
                 src = {item.image}
                 alt = {item.title}
-                className = "w-full h-64 object-cover"
+                className = "w-full h-64 object-cover transition-transform duration-500 group-hover:scale-150"
               />
+              <div className = "absolute inset-0 bg-blue-900/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                <div className = "p-4">
+                  <p className = "text-white text-lg font-medium leading-tight">
+                    {item.title}
+                  </p>
+                </div>
+              </div>
             </div>
           </motion.div>
         ))}

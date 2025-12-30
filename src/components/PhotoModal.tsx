@@ -33,7 +33,7 @@ export default function PhotoModal({ item, onClose }: Props) {
                 href = {item.locationLink}
                 target = "_blank"
                 rel = "noreferrer"
-                className = "text-sm text-blue-600 hover:underline"
+                className = "text-sm text-blue-600"
               > {item.location} </a>
             ) : (
               <p className = "text-sm text-gray-500"> {item.location} </p>

@@ -13,7 +13,7 @@ export const food = [
     id: 2,
     title: "Pani Puri",
     image: "/assets/images/food/puri.avif",
-    note: "I could have this for breakfast, lunch, and dinner which is exactly what me and my mom did whwen we could'nt land on what to cook for the day",
+    note: "I could have this for breakfast, lunch, and dinner which is exactly what me and my mom did when we couldn't land on what to cook for the day",
     location: "Home, Chicago",
     locationLink: null
   },

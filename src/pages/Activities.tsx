@@ -21,7 +21,7 @@ export default function Activities() {
 
       <AnimatePresence>
         {selected && (
-          <PhotoModal item = {selected} onClose={() => setSelected(null)} />
+          <PhotoModal item = {selected} onClose = {() => setSelected(null)} />
         )}
       </AnimatePresence>
     </div>
