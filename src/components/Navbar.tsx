@@ -8,14 +8,15 @@ export default function Navbar() {
     }`;
 
   return (
-    <nav className="px-6 py-5 flex justify-between items-center max-w-6xl mx-auto">
-      <Link to="/" className="text-lg font-medium"> Winter 2025 </Link>
+    <nav className = "px-6 py-5 flex justify-between items-center max-w-6xl mx-auto">
+      <Link to = "/" className = "text-lg font-medium"> Winter 2025 </Link>
 
-      <div className="space-x-6 text-sm">
+      <div className = "space-x-6 text-sm">
         <Link to = "/" className = {linkStyle("/")}> Home </Link>
         <Link to = "/food" className = {linkStyle("/food")}> Food </Link>
         <Link to = "/movies" className = {linkStyle("/movies")}> Movies </Link>
         <Link to = "/places" className = {linkStyle("/places")}> Places </Link>
+        <Link to = "/activities" className = {linkStyle("/activities")}> Activities </Link>
         <Link to = "/reflection" className = {linkStyle("/reflection")}> Reflection </Link>
       </div>
     </nav>
