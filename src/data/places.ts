@@ -32,5 +32,13 @@ export const places: PhotoItem[] = [
     note: "The coolest christmas market and the handmade ornament I got this year was a painted glass bell for our tree",
     location: "Christkindl Market, Chicago",
     locationLink: null
+  }, 
+  {
+    id: 5,
+    title: "Aurora Temple",
+    image: "/assets/images/places/temple.avif",
+    note: "We wanted to take a long drive for the new years and visited this temple which we last saw in 2019 and the revelations were beautiful. We bought curd rice, tamirind rice, vada, and mango lassi for lunch",
+    location: "Sri Venkateswara Swami (Balaji) Temple, Aurora",
+    locationLink: "https://maps.google.com/?q=Sri+Venkateswara+Swami+(Balaji)+Temple"
   }
 ];

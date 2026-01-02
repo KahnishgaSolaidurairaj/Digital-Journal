@@ -27,7 +27,8 @@ export default function Reflection() {
           <p>
             This digital journal isn't meant to document everything. It's a snapshot 
             of how it felt to be present. Looking back, the memories that stayed weren't
-            the big events, but the small everyday moments I enjoyed.
+            the big events, but the small everyday moments I enjoyed. 
+            Especially the sweet treats in which my family lured me out with!
           </p>
           
           <p>

@@ -32,7 +32,7 @@ export default function Home() {
           ["Food", "/food"],
           ["Places", "/places"],
           ["Movies", "/movies"],
-          ["Activities", "/activities"],
+          ["Reflection", "/reflection"],
         ].map(([label, path]) => (
           <Link
             key = {label}

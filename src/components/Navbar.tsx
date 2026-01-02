@@ -16,7 +16,6 @@ export default function Navbar() {
         <Link to = "/food" className = {linkStyle("/food")}> Food </Link>
         <Link to = "/movies" className = {linkStyle("/movies")}> Movies </Link>
         <Link to = "/places" className = {linkStyle("/places")}> Places </Link>
-        <Link to = "/activities" className = {linkStyle("/activities")}> Activities </Link>
         <Link to = "/reflection" className = {linkStyle("/reflection")}> Reflection </Link>
       </div>
     </nav>

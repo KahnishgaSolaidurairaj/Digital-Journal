@@ -48,5 +48,21 @@ export const food: PhotoItem[] = [
     note: "Christkindl's annual holiday mug with their famous hot chocalate with wipped cream",
     location: "Christkindl Market, Chicago",
     locationLink: null
+  },
+  {
+    id: 6,
+    title: "Pizza",
+    image: "/assets/images/food/pizza.avif",
+    note: "Got a bit hungry waiting for new years fireworks so we got half pineapple and black olive's as the topping",
+    location: "Domino's, Chicago",
+    locationLink: null
+  },
+  {
+    id: 7,
+    title: "Frozen Custard",
+    image: "/assets/images/food/culvers.avif",
+    note: "The only way I'll be okay with a long drive is with a sweet treat of my choice",
+    location: "Culver's, North Aurora",
+    locationLink: null
   }
 ];

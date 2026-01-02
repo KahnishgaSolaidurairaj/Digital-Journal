@@ -5,6 +5,7 @@ import PhotoGrid from "../components/PhotoGrid";
 import type { PhotoItem } from "../components/PhotoGrid";
 import PhotoModal from "../components/PhotoModal";
 import { AnimatePresence } from "framer-motion";
+import Footer from "../components/Footer"
 
 export default function Places() {
   const [selected, setSelected] = useState<PhotoItem | null>(null);
@@ -23,6 +24,7 @@ export default function Places() {
           <PhotoModal item = {selected} onClose={() => setSelected(null)} />
         )}
       </AnimatePresence>
+      <Footer />
     </div>
   );
 }
