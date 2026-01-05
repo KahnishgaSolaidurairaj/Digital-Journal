@@ -64,5 +64,21 @@ export const food: PhotoItem[] = [
     note: "The only way I'll be okay with a long drive is with a sweet treat of my choice",
     location: "Culver's, North Aurora",
     locationLink: null
+  },
+  {
+    id: 8, 
+    title: "Mochinut",
+    image: "/assets/images/food/mochi.avif", 
+    note: "I tried the Dark Chocolate Coconut donut and it wasn't too sweet and really tasty",
+    location: "Little Italy, Chicago",
+    locationLink: "https://maps.google.com/?q=Mochinut"
+  },
+  {
+    id: 9, 
+    title: "ML Kitchen",
+    image: "/assets/images/food/ml.avif",
+    note: "I've been wanting to try this place for a while and it didn't disappoint!",
+    location: "Little Italy, Chicago",
+    locationLink: "https://maps.google.com/?q=ML+Kitchen"
   }
 ];
