@@ -11,14 +11,6 @@ export const food: PhotoItem[] = [
   }, 
   {
     id: 2,
-    title: "Pani Puri",
-    image: "/assets/images/food/puri.avif",
-    note: "I could have this for breakfast, lunch, and dinner which is exactly what me and my mom did when we couldn't land on what to cook for the day",
-    location: "Home, Chicago",
-    locationLink: null
-  },
-  {
-    id: 3,
     title: "Mango Lassi",
     image: "/assets/images/food/lassi.avif",
     note: "After getting my eyes dialated for the first time I wanted a snack from the vending machine and this mango lassi was better than I expected since it tasted authentic",
@@ -26,7 +18,7 @@ export const food: PhotoItem[] = [
     locationLink: null
   },
   {
-    id: 4,
+    id: 3,
     title: "Mocha Freeze",
     image: "/assets/images/food/mocha.avif",
     note: "Going to costco without eating breakfast was questinable on my part but I did get to try the Cold brew mocha freeze which tasted sweet and strong",
@@ -34,7 +26,7 @@ export const food: PhotoItem[] = [
     locationLink: null
   },
   {
-    id: 5,
+    id: 4,
     title: "Macaroons",
     image: "/assets/images/food/macaroon.avif",
     note: "Every Costco run always includes something new to try and this week we settled on macaroons which were soft and tasty",
@@ -42,7 +34,7 @@ export const food: PhotoItem[] = [
     locationLink: null
   },
   {
-    id: 6,
+    id: 5,
     title: "Hot Chocolate",
     image: "/assets/images/food/hotChoc.avif",
     note: "Christkindl's annual holiday mug with their famous hot chocalate with wipped cream",
@@ -80,5 +72,21 @@ export const food: PhotoItem[] = [
     note: "I've been wanting to try this place for a while and it didn't disappoint!",
     location: "Little Italy, Chicago",
     locationLink: "https://maps.google.com/?q=ML+Kitchen"
-  }
+  },
+  {
+    id: 10,
+    title: "Bobar", 
+    image: "/assets/images/food/bobar.avif",
+    note: "Tried something new by buying a mango-pinapple drink with lychee popping jelly plus a italian cookie gelato which tasted like biscoff",
+    location: "Elk Grove, Illinois", 
+    locationLink: null
+  },
+  {
+    id: 11,
+    title: "Pani Puri",
+    image: "/assets/images/food/puri.avif",
+    note: "I could have this for breakfast, lunch, and dinner which is exactly what me and my mom did when we couldn't land on what to cook for the day",
+    location: "Home, Chicago",
+    locationLink: null
+  }, 
 ];
